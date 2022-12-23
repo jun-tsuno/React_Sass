@@ -1,0 +1,15 @@
+@use "./globals/" as g;
+
+.mainPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		color: g.$redColor;
+	}
+
+	button {
+		@include g.buttonStyle(g.$redColor, 35px);
+	}
+}

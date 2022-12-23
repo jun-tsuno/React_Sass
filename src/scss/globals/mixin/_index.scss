@@ -1,0 +1,11 @@
+@use "../variables" as v;
+
+@mixin buttonStyle($color, $fontSize) {
+	width: 200px;
+	height: 40px;
+	background-color: $color;
+	color: v.$whiteColor;
+	border: none;
+	border-radius: 8px;
+	font-size: $fontSize;
+}
